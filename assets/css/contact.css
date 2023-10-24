@@ -22,8 +22,7 @@ body {
 }
 .container header .right_menu .user_account {
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .container header .right_menu .user_account i {
   font-weight: 400;
@@ -67,8 +66,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
 }
 .container header nav ul li {
   position: relative;
@@ -126,7 +124,7 @@ body {
   border: 1px solid #cecece;
   border-radius: 4px;
 }
-.container .button {
+.container .contact .button {
   width: 40%;
   display: flex;
   justify-content: center;
@@ -135,8 +133,8 @@ body {
   margin-top: 40px;
   margin-bottom: 100px;
 }
-.container .button button {
-  width: 40%;
+.container .contact .button button {
+  width: 100%;
   height: 35px;
   margin: 0 auto;
   background: #e16a00;
@@ -161,8 +159,7 @@ body {
 .container .social_section .social {
   idth: 100%;
   display: flex;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
 }
 .container .social_section .social a {
   width: 40%;
@@ -243,8 +240,7 @@ footer .menu_bar {
 }
 footer .menu_bar .menus {
   display: flex;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
 }
 footer .menu_bar .menus .menu ul {
   display: flex;
@@ -338,8 +334,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -374,8 +369,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -451,8 +445,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 7px;
-         column-gap: 7px;
+    column-gap: 7px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -496,8 +489,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .user_account {
     display: block;
@@ -584,8 +576,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -661,8 +652,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -752,8 +742,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -811,8 +800,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -848,8 +836,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    column-gap: 40px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -885,4 +872,15 @@ footer .mobile_footer {
     margin-top: 20px;
     margin-left: 35px;
   }
-}/*# sourceMappingURL=contact.css.map */
+}
+body {
+  position: relative;
+}
+body .alert-success {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+/*# sourceMappingURL=contact.css.map */

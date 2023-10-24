@@ -22,8 +22,7 @@ body {
 }
 .container header .right_menu .user_account {
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .container header .right_menu .user_account i {
   font-weight: 400;
@@ -67,8 +66,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
 }
 .container header nav ul li {
   position: relative;
@@ -94,8 +92,7 @@ body {
   justify-content: space-between;
   justify-content: center;
   align-items: center;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
+  column-gap: 70px;
   margin-top: 90px;
 }
 .container .about .content {
@@ -138,8 +135,7 @@ body {
 .container .social_section .social {
   idth: 100%;
   display: flex;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
 }
 .container .social_section .social a {
   width: 40%;
@@ -220,8 +216,7 @@ footer .menu_bar {
 }
 footer .menu_bar .menus {
   display: flex;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
 }
 footer .menu_bar .menus .menu ul {
   display: flex;
@@ -315,8 +310,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -351,8 +345,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -414,8 +407,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 7px;
-         column-gap: 7px;
+    column-gap: 7px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -459,8 +451,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .user_account {
     display: block;
@@ -547,8 +538,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -610,8 +600,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -701,8 +690,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -754,8 +742,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -803,8 +790,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    column-gap: 40px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -840,4 +826,6 @@ footer .mobile_footer {
     margin-top: 20px;
     margin-left: 35px;
   }
-}/*# sourceMappingURL=about.css.map */
+}
+
+/*# sourceMappingURL=about.css.map */

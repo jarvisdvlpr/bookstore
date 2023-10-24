@@ -33,25 +33,4 @@ document.addEventListener("click", function() {
   popUp.style.display = "none";
 });
 
-var swiper = new Swiper(".slide_content", {
-  slidesPerView: 4,
-  spaceBetween: 25,
-  centerSlide: true, // Remove quotes around true
-  fade: true,        // Remove quotes around true
-  grabCursor: true,  // Remove quotes around true
-  pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-  },
-  breakpoints: {
-      0: {
-          slidesPerView: 1,
-      },
-      500: {
-          slidesPerView: 2,
-      },
-      992: {
-          slidesPerView: 3,
-      }
-  }
-});
+

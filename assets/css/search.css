@@ -22,8 +22,7 @@ body {
 }
 .container header .right_menu .user_account {
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .container header .right_menu .user_account i {
   font-weight: 400;
@@ -67,8 +66,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
 }
 .container header nav ul li {
   position: relative;
@@ -130,6 +128,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.container .search_section .slide i {
+  font-size: 35px;
+  padding: 0 5px 0 5px;
+  color: #000000;
+  cursor: pointer;
+}
 .container .search_section .slide .result {
   width: 100%;
   transition: 2s;
@@ -181,8 +185,7 @@ body {
 .container .social_section .social {
   idth: 100%;
   display: flex;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+  column-gap: 60px;
 }
 .container .social_section .social a {
   width: 40%;
@@ -263,8 +266,7 @@ footer .menu_bar {
 }
 footer .menu_bar .menus {
   display: flex;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
 }
 footer .menu_bar .menus .menu ul {
   display: flex;
@@ -358,8 +360,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -401,7 +402,7 @@ footer .mobile_footer {
   }
   .container .search_section .slide {
     width: 80%;
-    height: 600px;
+    height: 780px;
     background-color: #fff;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
@@ -455,8 +456,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -497,8 +497,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 7px;
-         column-gap: 7px;
+    column-gap: 7px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -542,8 +541,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .user_account {
     display: block;
@@ -630,8 +628,7 @@ footer .mobile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     margin: 0 auto;
   }
   .container .social_section .social a {
@@ -733,8 +730,7 @@ footer .mobile_footer {
   }
   footer .mobile_footer ul {
     display: flex;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
   }
   footer .mobile_footer ul li {
     color: #fff;
@@ -824,8 +820,7 @@ footer .mobile_footer {
   }
   .container header .right_menu {
     margin-top: 20px;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .container header .right_menu .hamburger {
     display: block;
@@ -917,8 +912,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -950,7 +944,7 @@ footer .mobile_footer {
   }
   .container .search_section .slide {
     width: 60%;
-    height: 540px;
+    height: 640px;
   }
   .popup form {
     width: 35%;
@@ -963,8 +957,7 @@ footer .mobile_footer {
   }
   footer .menu_bar .menus {
     display: flex;
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    column-gap: 40px;
   }
   footer .menu_bar .menus .menu ul li {
     font-size: 12px;
@@ -986,6 +979,12 @@ footer .mobile_footer {
     margin-top: 20px;
     margin-left: 35px;
   }
+  .container .search_section {
+    width: 100%;
+  }
+  .container .search_section .slide {
+    height: 540px;
+  }
   .popup form {
     width: 30%;
   }
@@ -1000,4 +999,6 @@ footer .mobile_footer {
     margin-top: 20px;
     margin-left: 35px;
   }
-}/*# sourceMappingURL=search.css.map */
+}
+
+/*# sourceMappingURL=search.css.map */

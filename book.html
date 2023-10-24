@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="./assets/scripts/mainLogic/joinUs.js" defer type="module"></script>
     <script src="./assets/scripts/book.js" defer></script>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/book.css" />
@@ -197,10 +198,13 @@
     <!-- Footer end -->
   </body>
   <div class="popup">
-    <form action="">
+    <form id="joinUs">
       <h3>Join Us</h3>
-      <input type="text" placeholder="Full name" />
-      <input type="email" placeholder="Email" />
+      <input type="text" placeholder="Full name" id="nameJoinUsInput"/>
+      <input type="email" placeholder="Email" id="emailJoinUsInput"/>
+      <div class="alert alert-success" role="alert" style="display: none" id="scAl">
+        Thank you for the subscription!
+      </div>
       <button>Join</button>
     </form>
   </div>

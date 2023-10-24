@@ -11,13 +11,18 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <script src="./assets/scripts/catalog.js" defer></script>
+
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+
     <link rel="stylesheet" href="./assets/css/catalog.css" />
+    <script src="./assets/scripts/catalog.js" defer></script>
+    <script src="./assets/scripts/mainLogic/joinUs.js" defer type="module"></script>
+    <script src="./assets/scripts/catalogLogic.js" defer type="module"></script>
+
 
     <title>Book Page</title>
   </head>
@@ -68,70 +73,24 @@
       </header>
       <div class="catalog">
         <div class="head">
-          <h2>All Books</h2>
+          <h2 id="showAll">All Books</h2>
         </div>
-        <div class="type">
-          <span>Fantastic</span>
-          <span>Self-development</span>
-          <span>Baby</span>
-          <span>Clas</span>
+        <div class="type" id="categories">
+
+<!--          <span id="selfDevelop">Self-development</span>-->
+<!--          <span id="baby">Baby</span>-->
+<!--          <span id="clas">Clas</span>-->
         </div>
       </div>
 
+
       <div class="slide_container swiper">
         <div class="slide_content">
-          <div class="card_wrapper swiper-wrapper">
-            <div class="card swiper-slide">
-              <div class="img">
-                <img src="./assets/img/image 2.svg" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Order in Chaos</h3>
-                <p>Konstantin Koptelov</p>
-                <button>Read more</button>
-              </div>
-              <span>New</span>
-            </div>
-            <div class="card swiper-slide">
-              <div class="img">
-                <img src="./assets/img/image 3.svg" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Order in Chaos</h3>
-                <p>Konstantin Koptelov</p>
-                <button>Read more</button>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="img">
-                <img src="./assets/img/image 4.svg" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Order in Chaos</h3>
-                <p>Konstantin Koptelov</p>
-                <button>Read more</button>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="img">
-                <img src="./assets/img/image 5.svg" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Order in Chaos</h3>
-                <p>Konstantin Koptelov</p>
-                <button>Read more</button>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="img">
-                <img src="./assets/img/image 6.svg" alt="img" />
-              </div>
-              <div class="content">
-                <h3>Order in Chaos</h3>
-                <p>Konstantin Koptelov</p>
-                <button>Read more</button>
-              </div>
-            </div>
+          <div class="card_wrapper swiper-wrapper" id="cat">
+
+<!--              TUT BUDET KARTI-->
+
+
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -338,14 +297,21 @@
     </footer>
     <!-- Footer end -->
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./main.js"></script>
+
+
+<!--    <script src="./main.js" ></script>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer ></script>
+
   </body>
   <div class="popup">
-    <form action="">
+    <form id="joinUs">
       <h3>Join Us</h3>
-      <input type="text" placeholder="Full name" />
-      <input type="email" placeholder="Email" />
+      <input type="text" placeholder="Full name" id="nameJoinUsInput"/>
+      <input type="email" placeholder="Email" id="emailJoinUsInput"/>
+      <div class="alert alert-success" role="alert" style="display: none" id="scAl">
+        Thank you for the subscription!
+      </div>
       <button>Join</button>
     </form>
   </div>

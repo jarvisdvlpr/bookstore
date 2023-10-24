@@ -1,3 +1,8 @@
+import { ref, set, get } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
+import {db} from "./mainLogic/fire.js";
+import  * as myClasses from "./mainLogic/classes.js";
+
+
 let hamburger= document.querySelector(".hamburger");
 let mobMenu = document.querySelector(".mobile_menu");
 let navLink= document.querySelectorAll(".mobile_menu ul a") 
@@ -33,3 +38,15 @@ document.addEventListener("click", function() {
   popUp.style.display = "none";
 });
 
+
+window.addEventListener("load",()=>{
+   get(ref(db, '/aboutUs')).then(snapshot=>{
+       const currentAbout = snapshot.val();
+       if(currentAbout!==null){
+           document.getElementById("title").innerText = currentAbout.title;
+           document.getElementById("desc").innerText = currentAbout.description;
+           document.getElementById("imgsrc").setAttribute("src",
+               currentAbout.imgSrc);
+       }
+   });
+});

@@ -14,6 +14,10 @@
     <script src="./assets/scripts/book.js" defer></script>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/search.css" />
+    <script src="./assets/scripts/mainLogic/joinUs.js" defer type="module"></script>
+<!--    <script src="./assets/scripts/search.js"></script>-->
+<!--    <script src="./assets/scripts/mainLogic/logicFire.js" type="module"></script>-->
+    <script src="assets/scripts/mainLogic/googleSearch.js" defer></script>
     <title>Search</title>
   </head>
   <body>
@@ -64,18 +68,21 @@
       <div class="search_section">
         <div class="serach">
           <h1>Search</h1>
-          <input type="text" placeholder="Order in Chaos" />
-          <button>Search</button>
+          <form id="search">
+            <input type="text" placeholder="Order in Chaos" id="searchText" />
+            <button style="margin-top: 30px">Search</button>
+          </form>
         </div>
         <div class="slide">
+          <i class="fa-solid fa-chevron-left" id="leftArrow" style="display: none"></i>
           <div class="result">
             <div class="img">
-              <img src="./assets/img/image 2.svg" alt="" />
+              <img src="./assets/img/image 2.svg" id="sImg" />
             </div>
             <div class="content">
-              <h3>Order in Chaos</h3>
-              <h4>Konstantin Koptelov</h4>
-              <p>
+              <h3 id="sTitle">Order in Chaos</h3>
+              <h4 id="sAuthor">Konstantin Koptelov</h4>
+              <p id="sDesc" style="max-height: 290px; overflow: auto;">
                 We work without holidays and weekends! Residents of Kiev can
                 receive an order on the day of its registration. Customers from
                 other cities of Ukraine can receive an order within 1-5 days,
@@ -87,6 +94,7 @@
               </p>
             </div>
           </div>
+          <i class="fa-solid fa-chevron-right" id="rightArrow" style="display: none"></i>
         </div>
       </div>
 
@@ -165,10 +173,13 @@
     <!-- Footer end -->
   </body>
   <div class="popup">
-    <form action="">
+    <form id="joinUs">
       <h3>Join Us</h3>
-      <input type="text" placeholder="Full name" />
-      <input type="email" placeholder="Email" />
+      <input type="text" placeholder="Full name" id="nameJoinUsInput"/>
+      <input type="email" placeholder="Email" id="emailJoinUsInput"/>
+      <div class="alert alert-success" role="alert" style="display: none" id="scAl">
+        Thank you for the subscription!
+      </div>
       <button>Join</button>
     </form>
   </div>
